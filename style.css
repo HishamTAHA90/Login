@@ -1,0 +1,224 @@
+/* Styles pour les formulaires */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type=text],
+input[type=password],
+input[type=email] {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    font-size: 16px;
+}
+
+button[type=submit] {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #1abc9c;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type=submit]:hover {
+    background-color: #148f77;
+}
+
+/* Styles spécifiques au formulaire de connexion */
+.login-form {
+    margin-top: 50px;
+}
+
+/* Styles spécifiques au formulaire d'inscription */
+.signup-form {
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0062cc;
+}
+
+.products {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Style pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style pour le conteneur principal */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}
+
+/* Style pour le formulaire de recherche */
+
+
+/* Style pour le champ de saisie de recherche */
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Style pour le bouton de recherche */
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Style pour les titres de section */
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style pour les produits */
+.product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style pour l'image du produit */
+.product img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+/* Style pour le nom et le prix du produit */
+.product .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Style pour le nom du produit */
+.product .info h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Style pour le prix du produit */
+.product .info p {
+    font-size: 16px;
+    margin: 0;
+    color: #4CAF50;
+}
+
+/* Style pour le lien du produit */
+.product .info a {
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* Style pour le lien du produit au survol */
+.product .info a:hover {
+    text-decoration: underline;
+}
